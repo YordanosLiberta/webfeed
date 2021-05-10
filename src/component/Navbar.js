@@ -27,6 +27,27 @@ export default function NavBar() {
       >
         Feed
       </NavLink>
+      <NavLink
+        activeStyle={{ fontWeight: "bold", color: "red" }}
+        to="/search"
+        style={{ margin: 20 }}
+      >
+        Search
+      </NavLink>
+      <NavLink
+        activeStyle={{ fontWeight: "bold", color: "red" }}
+        to="/Counter"
+        style={{ margin: 20 }}
+      >
+        Counter
+      </NavLink>
+      <NavLink
+        activeStyle={{ fontWeight: "bold", color: "red" }}
+        to="/SignupForm"
+        style={{ margin: 20 }}
+      >
+        SignupForm
+      </NavLink>
     </div>
   );
 }
